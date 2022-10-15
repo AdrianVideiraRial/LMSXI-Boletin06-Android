@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE resources [
 <!ELEMENT resources (style*)>
-<!ATTLIST resources  xmlns:tools CDATA #REQUIRED>
 <!ELEMENT style (item*)>
 <!ELEMENT item (#PCDATA)>
+<!ATTLIST resources  xmlns:tools CDATA #REQUIRED>
 <!ATTLIST style name CDATA #REQUIRED>
 <!ATTLIST style parent CDATA #IMPLIED>
 <!ATTLIST item name CDATA #REQUIRED>
